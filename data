@@ -1,2 +1,79 @@
 mat = read.csv('https://raw.githubusercontent.com/kylepersin/hello-world/main/student-mat.csv')
 por = read.csv('https://raw.githubusercontent.com/kylepersin/hello-world/main/student-por.csv')
+
+
+Variable | Dimensions
+'''''''''''''''''''''
+school | binary
+sex | binary
+age | numeric
+address | binary
+famsize | binary
+Pstatus | binary
+Medu | numeric
+Fedu | numeric
+Mjob | nominal
+Fjob | nominal
+reason | nominal
+guardian | nominal
+traveltime | numeric
+studytime | numeric
+failures | numeric
+schoolsup | binary
+famsup | binary
+paid | binary
+activities | binary
+nursery | binary
+higher | binary
+internet | binary
+romantic | binary
+famrel | numeric
+freetime | numeric
+goout | numeric
+Dalc | numeric
+Walc | numeric
+health | numeric
+absences | numeric
+G1 | numeric
+G2 | numeric
+G3 | numeric
+
+
+Variable | codebook
+'''''''''''''''''''''
+school | students school (GP or MS)
+sex | M or F
+age | 15 to 22
+address | U (urban) or R (rural)
+famsize | LE3 (less or equal to 3) or GT3 (greater than 3)
+Pstatus | T (living together) or A (living apart)
+Medu | Mothers education  0 - none, 1 - primary education (4th grade), 2 - 5th to 9th grade, 3 - secondary education, or 4 - higher education
+Fedu | fathers education  0 - none, 1 - primary education (4th grade), 2 - 5th to 9th grade, 3 - secondary education, or 4 - higher education
+Mjob | 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other'
+Fjob | 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other'
+reason | close to 'home', school 'reputation', 'course' preference or 'other'
+guardian | 'mother', 'father' or 'other'
+traveltime | home to school travel time 1 - less than 15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - more than 1 hour
+studytime | weekly study time 1 - less than 2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - more than 10 hours
+failures | number of past class failures
+schoolsup | extra educational support (yes or no)
+famsup | family educational support (yes or no)
+paid | Extra paid classes within the course subject (yes or no)
+activities | extracurriculars (yes or no)
+nursery | attended nursery (yes or no)
+higher | wants to take higher education (yes or no)
+internet | internet access at home (yes or no)
+romantic | with romantic relationship (yes or no)
+famrel | quality of family relationship (1-5, 5 being the best)
+freetime | free time after school (1-5, 5 being the best)
+goout | going out with friends (1-5, 5 being the best)
+Dalc | workday alcohol consumption (1-5, 5 being the best)
+Walc | weekend alcohol consumption (1-5, 5 being the best)
+health | current health status (1-5, 5 being the best)
+absences | number of school abscenses 
+G1 | first period grade (from 0 to 20)
+G2 | second period grade (from 0 to 20)
+G3 | final grade (from 0 to 20)
+
+
+
