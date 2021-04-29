@@ -1,2 +1,1 @@
-INSERT PROPOSAL
-INSET DATA ANALYSIS PLAN
+Proposal and Data Analysis Plan
