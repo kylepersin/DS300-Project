@@ -1,3 +1,3 @@
 # DS 300 Project
-data science project
-insert abstract
+Data Science Project:
+We investigated how student alcohol consumption, family characteristics, free-time activities, and other factors are correlated with student grades.  The data that we studied was collected from a mathematics class taught in Portugal.  Using multiple linear regression, we found that a student's health and whether or not the student goes out have the strongest relationship with a student's grades.  We also trained and evaluated several classifiers that were able to predict whether a student does well in school without any information about intelligence. This demonstrates that intelligence is not the sole factor in determining a student's academic performance. 
