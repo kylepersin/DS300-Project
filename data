@@ -1,2 +1,0 @@
-mat = read.csv('https://raw.githubusercontent.com/kylepersin/hello-world/main/student-mat.csv')
-por = read.csv('https://raw.githubusercontent.com/kylepersin/hello-world/main/student-por.csv')
