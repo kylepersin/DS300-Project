@@ -1,38 +1,38 @@
-|Variable | Dimensions|
-|'''''''''''''''''''''|
-|school | binary|
-|sex | binary|
-|age | numeric|
-|address | binary|
-|famsize | binary|
-|Pstatus | binary|
-|Medu | numeric|
-|Fedu | numeric|
-|Mjob | nominal|
-|Fjob | nominal|
-|reason | nominal|
-|guardian | nominal|
-|traveltime | numeric|
-|studytime | numeric|
-|failures | numeric|
-|schoolsup | binary|
-|famsup | binary|
-|paid | binary|
-|activities | binary|
-|nursery | binary|
-|higher | binary|
-|internet | binary|
-|romantic | binary|
-|famrel | numeric|
-|freetime | numeric|
-|goout | numeric|
-|Dalc | numeric|
-|Walc | numeric|
-|health | numeric|
-|absences | numeric|
-|G1 | numeric|
-|G2 | numeric|
-|G3 | numeric|
+|Variable   | Dimensions|
+|'''''''''''|'''''''''''|
+|school     | binary    |
+|sex        | binary    |
+|age        | numeric   |
+|address    | binary    |
+|famsize    | binary    |
+|Pstatus    | binary    |
+|Medu       | numeric   |
+|Fedu       | numeric   |
+|Mjob       | nominal   |
+|Fjob       | nominal   |
+|reason     | nominal   |
+|guardian   | nominal   |
+|traveltime | numeric   |
+|studytime  | numeric   |
+|failures   | numeric   |
+|schoolsup  | binary    |
+|famsup     | binary    |
+|paid       | binary    |
+|activities | binary    |
+|nursery    | binary    |
+|higher     | binary    |
+|internet   | binary    |
+|romantic   | binary    |
+|famrel     | numeric   |
+|freetime   | numeric   |
+|goout      | numeric   |
+|Dalc       | numeric   |
+|Walc       | numeric   |
+|health     | numeric   |
+|absences   | numeric   |
+|G1         | numeric   |
+|G2         | numeric   |
+|G3         | numeric   |
 
 
 |Variable | codebook|
