@@ -1,0 +1,90 @@
+---
+title: "Project Alcohol"
+author: "Dominic Ulicne"
+date: "4/6/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+math_class= read.csv("student-mat.csv")
+port_class= read.csv("student-por.csv")
+```
+```{r}
+str(math_class)
+str(port_class)
+```
+```{r}
+library(dplyr)
+```
+```{r}
+glimpse(math_class)
+glimpse(port_class)
+```
+```{r}
+table(math_class$Dalc)
+table(math_class$G3)
+table(port_class$Dalc)
+table(port_class$G3)
+```
+
+```{r}
+library(caTools)
+set.seed(123)
+split = sample.split(math_class$G3, SplitRatio = 0.8)
+training_set = subset(math_class, split == TRUE)
+test_set = subset(math_class, split == FALSE)
+```
+
+```{r}
+regressor = lm(formula = G3 ~ famrel + freetime + goout + Dalc + Walc + health + absences,
+                data = training_set)
+summary(regressor)
+```
+```{r}
+regressor = lm(formula = G3 ~ famrel + freetime + goout + Walc + health + absences,
+                data = training_set)
+summary(regressor)
+```
+```{r}
+regressor = lm(formula = G3 ~ famrel + freetime + goout + Walc + health,
+                data = training_set)
+summary(regressor)
+```
+```{r}
+regressor = lm(formula = G3 ~ famrel + freetime + goout + health,
+                data = training_set)
+summary(regressor)
+```
+```{r}
+regressor = lm(formula = G3 ~ freetime + goout + health,
+                data = training_set)
+summary(regressor)
+```
+```{r}
+regressor = lm(formula = G3 ~ goout + health,
+                data = training_set)
+summary(regressor)
+```
