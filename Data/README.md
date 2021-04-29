@@ -1,5 +1,5 @@
 |Variable   | Dimensions|
-|'''''''''''|'''''''''''|
+|------|--------|
 |school     | binary    |
 |sex        | binary    |
 |age        | numeric   |
@@ -36,7 +36,7 @@
 
 
 |Variable | codebook|
-|'''''''''''''''''''''|
+|-------|----------|
 |school | students school (GP or MS)|
 |sex | M or F|
 |age | 15 to 22|
